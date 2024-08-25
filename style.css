@@ -1,0 +1,578 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav */
+#navbar{
+    padding-left: 15rem;
+}
+ input{
+    background-color:  rgb(237, 236, 236);
+    border: solid  rgb(237, 236, 236);
+    border-radius: 5px;
+
+ }
+.search i,span{
+    color: gray;
+    
+}
+.cart{
+    width: 1.5rem;
+    height: 1.7rem;
+}
+.heart,.profile{
+   font-size: 1.2rem;
+}
+
+.background{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 5;
+}
+.bg-image{
+    width: 100%;
+    height: 632px;
+}
+.bg-content{
+    margin: 14rem 0 0 10rem;
+    position: absolute;
+    color: white;
+}
+
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg-phone{
+    position: absolute;
+   right: 14rem;
+   top: 0;
+}
+.bg-hide-phone{
+    position: absolute;
+     left: 15rem;
+     top: 21rem;
+}
+.pro{
+    color: grey;
+    font-weight: 600;
+    font-size: 25px;
+}
+.iphone{
+    font-size: 90px;
+    font-weight: 50;
+    color: rgb(205, 205, 205);
+
+}
+.bg-content p{
+    font-size: 19px;
+}
+.bg-content{
+    color: grey;
+}
+.bg-content span{
+    color: white;
+    font-weight: 600;
+}
+.shop{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 0.26rem 3rem 0.70rem 3rem;
+    border-radius: 5px;
+}
+/* first container */
+
+#first-container{
+    box-sizing: border-box;
+}
+#vision-pro{
+    background-color: #353535;
+    color: #909090;
+}
+#airpods{
+    background-color: #EDEDED;
+
+}
+#macbook{
+    background-color: #EDEDED;
+    padding-top: 5rem;
+    z-index: 2;
+}
+#macbook-img{
+    background-color: #EDEDED;
+}
+#macbook-photo{
+    width: 18rem;
+    margin-left: 5rem;
+}
+#bg-color{
+    background-color: #EDEDED;
+   
+}
+#macbook-head{
+    font-size: 4rem;
+}
+#text-color{
+    color: #909090;
+}
+/* second container */
+.second-main{
+    padding: 0 8rem 0 8rem;
+}  
+#first{
+    background-color: #EDEDED;
+}
+.first{
+    background-color: rgb(237, 236, 236);
+}
+#second{
+    background-color:#EDEDED;
+}
+.second-img{
+    width: 0.25rem;
+}
+.left,.right{
+    font-size: 1rem;
+}
+#card-first{
+    background-color: #EDEDED;
+}
+/* third */
+.third{
+    margin: 7rem 0 0 0;
+}
+#card-items {
+    background-color: #F6F6F6;
+}
+.new{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+.arrival{
+    text-decoration: underline;
+    color: black;
+}
+.best{
+    color: grey;
+    margin-left: 2rem;
+}
+.best:hover{
+    text-decoration: underline;
+    color: black;
+}
+.third-cards{
+    background-color: #F6F6F6;
+    
+    border-radius: 10px;
+    
+}
+.favrt{
+    width: 1.2rem;
+    height: 1.5rem;
+    align-items: end;
+    margin: 1.1rem 0 0 0;
+}
+.items{
+    width: 10rem;
+    height: 10rem;
+}
+.buy{
+    text-decoration: none;
+    color: white;
+     background-color: black;
+     padding: 0.40rem 3rem 0.40rem 3rem;
+     border-radius: 5px;
+}
+/* fourth container */
+
+.para{
+    color: #909090;
+}
+#card2{
+    background-color: #F9F9F9;
+}
+#card3{
+    background-color: #EAEAEA;
+}
+#card4{
+    background-color: #2C2C2C;
+}
+/* fifth card */
+.fifth-card{
+   padding: 0 6rem 0 6rem;
+}
+/* big summer sale */
+.big-summer{
+    position: relative;
+    background-color: black;
+}
+.big-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.big-para{
+    color: #787878;
+}
+.bg-btn{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.40rem 2rem;
+    border-radius: 5px; 
+    color: white;
+}
+/* footer  */
+footer{
+    background-color: black; 
+    margin-top: 0px ;
+}
+
+.icons
+{
+   
+    gap: 3rem;
+     padding: 10rem 0 0 0 ;
+} 
+#footer-list{
+    color: #CFCFCF; 
+    line-height: 2;
+}
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    #navbar{
+        padding-left: 15rem;
+    }
+    
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #navbar{
+    padding-left: 15rem;
+   } 
+    #macbook-photo{
+        width: 18rem;
+        margin-left: 1rem;
+    } 
+    
+}
+@media screen and  (min-width: 1280px) {
+      #navbar{
+        padding-left: 7rem;
+       }  
+    .search{
+        padding: 0.25rem 12rem 0.25rem 1rem;
+        display: block;
+    }
+    .bg-phone{   
+       right: 11rem;
+    }
+   
+    .bg-content{
+        margin: 14rem 0 0 10rem;
+        position: absolute;
+        color: white;
+      
+        text-align: start;
+    }
+    
+}
+@media screen and  (min-width: 1024px) {
+   
+    .search{
+        padding: 0.30rem 8rem 0.30rem 1rem;
+        display: block;
+    }
+    .mac{
+        width: 60%;
+        height: 70%;
+        margin: 2rem 0 0 0;
+        right: 0;
+    }
+    .big-content{
+        position: absolute;
+        top: 0;
+        color: white;
+        margin-top: 9rem;
+        margin-left: 30rem;
+    }
+    .bg-phone{   
+        right: 5rem;
+    } 
+     .bg-img{
+        width: 20rem;
+        height: 35rem;
+        margin-top: 4.5rem;
+     }
+     
+   
+    .bg-content{
+        margin: 14rem 0 0 10rem;
+        position: absolute;
+        color: white;
+        text-align: start;
+    }
+}
+    
+@media (min-width: 900px) and (max-width: 1200px) {
+      #navbar{
+        padding-left: 3rem;
+       }  
+    .bg-content{
+        margin: 3rem 0 0 9rem;
+       
+        text-align: start; 
+    } 
+    #macbook-photo{
+        width: 16rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and  (min-width: 900px) {
+    .search{
+        padding: 0.25rem 12rem 0.25rem 1rem;
+        display: block;
+    }
+    #big-image{
+        height: 30rem;
+    }
+    
+    }   
+    .bg-content{
+        margin: 11rem 0 0 5rem;
+        position: absolute;
+        color: white;
+        align-items: center;
+        text-align: start; 
+    } 
+    .bg-hide-phone{
+        padding-left: 6rem;
+    }
+   
+@media screen and (max-width: 1024px) {
+    .search {
+        display: none;
+    }
+    .second-main{
+        padding: 0 2rem 0 2rem;
+    } 
+ 
+    .bg-content{
+        margin: 4rem 0 0 10rem;
+        position: absolute;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+/* Phone view: Hide search bar for screens 767px or less */
+@media screen and (max-width: 767px) {
+    #navbar{
+        padding-left: 3rem;
+    }
+    .search {
+        display: none;
+    }
+    .second-main{
+        padding: 0 0 0 0;
+    }
+    .bg-phone{   
+        right: 0rem;
+     }  
+     #footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bg-image{
+        width: 100%;
+        height: 682px;
+    }
+    .bg-content{
+        margin: 5rem 0 0 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+    .iphone{
+        font-size: 4rem;
+    }
+    .bg-hide-phone{
+        margin-top: 3.6rem;
+        padding:0 0 0  0rem;
+    }
+    
+}
+@media screen and(max-width: 655px){
+    .iphone{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .search {
+        display: none;
+    }
+    .second-main{
+        padding: 0 0 0 0;
+    }  
+    #card2-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #big-image{
+        height: 33rem;
+    }
+    #footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bg-hide-phone{
+        margin-top: 3.6rem;
+        left: 6rem;
+    }
+    .iphone{
+        font-size: 5rem;
+    }
+    .bg-content{
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 576px)  {
+    #big-image{
+        height: 33rem;
+    }
+    #footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bg-content{
+        padding-left: 0.13rem;
+        
+        margin-left: 1rem;
+    }
+}
+@media (min-width:500px) and (max-width: 575.98px) {
+    #big-image{
+        height: 33rem;
+    }
+    .footer-main{
+        align-items: center;
+    }
+    #footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bg-content{
+        padding-left: 0.16rem;
+        margin-top: 10rem;
+        
+    }
+    
+    .bg-hide-phone{
+        margin-top: 3.5rem;
+       margin-right: 1rem;
+    }
+    .iphone{
+        font-size: 3rem;
+    }
+
+  }
+@media screen and (max-width: 500px) {
+    
+    #big-image{
+        height: 33rem;
+    }
+    #footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .iphone{
+        font-size: 3rem;
+    }
+    .bg-hide-phone{
+        margin-right: 3rem;
+    }
+    
+}
+@media (min-width: 430px) and (max-width: 499px) {
+    .bg-hide-phone{
+        padding-left: -4rem;
+    }
+  
+}
+@media screen and (max-width: 430px){
+    .bg-hide-phone{
+        padding-left: -4rem;
+        margin-top: 4rem;
+    }
+    .bg-hide-photo{
+        width: 17rem;
+       height: 17.5rem;
+    }
+}
+@media screen and (min-width: 390px) and(max-width: 430px){
+     .background{
+        box-sizing: border-box;
+     } 
+    .bg-hide-phone{
+       width: 8rem;
+       height: 5rem;
+      padding-left: -9rem;
+    }
+    .bg-hide-phone img{
+        width: 8rem;
+       height: 5rem;
+    }
+    
+}
+@media (min-width:250px) and (max-width: 389px) {
+     .bg-hide-phone{
+        padding-left: -4rem;
+     }
+     .bg-hide-phone img{
+        width: 15rem;
+        height: 17.5rem;
+        padding-right: 2rem;
+     }
+}
